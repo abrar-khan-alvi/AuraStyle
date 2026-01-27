@@ -1,20 +1,65 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AuraStyle 👕✨
 
-# Run and deploy your AI Studio app
+**AuraStyle** is a premium, AI-powered personal stylist that transforms how you manage your wardrobe. Using Google's Gemini AI, it analyzes your clothing items to curate perfect outfit combinations for any occasion, all while keeping your data private and local.
 
-This contains everything you need to run your app locally.
+## 🌟 Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1I32ttBK1Bebs3xa0IGcqKMaj_0mDeHbL
+- **📸 Digital Wardrobe**: Digitally archive your entire clothing collection with AI-powered analysis of colors, categories, and tags.
+- **🪄 AI Stylist**: Get personalized outfit suggestions based on your actual pieces. Gemini acts as your personal fashion consultant.
+- **🔒 Privacy First**: Your wardrobe metadata and images are stored locally on your device. We respect your fashion privacy.
+- **📱 Responsive Design**: A beautiful, glassmorphic interface that feels like a premium fashion app on any device.
 
-## Run Locally
+## 🚀 Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React 19, TypeScript, Tailwind CSS
+- **AI Engine**: Google Gemini Pro Vision (@google/genai)
+- **Icons**: Lucide React
+- **Build Tool**: Vite
 
+## 🛠️ Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js (v18+)
+- A Google Gemini API Key
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/abrar-khan-alvi/AuraStyle.git
+   cd AuraStyle
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables:**
+   Create a `.env.local` file in the root directory (or use the existing one) and add your API key:
+   ```env
+   VITE_GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📖 How to Use
+
+1. **Add Piece**: Navigate to the "Wardrobe" tab and upload photos of your individual clothing items.
+2. **Analysis**: AuraStyle will automatically categorize and tag your items using AI.
+3. **Generate Magic**: Once you have at least 2 items, click the "AI Stylist" button to see curated outfit looks.
+4. **Curate**: Manage your collection in the "Wardrobe" tab and view your style profile in the "Profile" tab.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have ideas for new features or improvements.
+
+---
+
+<p align="center">
+  Built with ❤️ for fashion and technology.
+</p>
