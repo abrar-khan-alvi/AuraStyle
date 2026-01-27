@@ -1,0 +1,7 @@
+{
+  "name": "AuraStyle",
+  "description": "Your AI-powered personal stylist. Upload your wardrobe and let Gemini generate perfect outfit combinations for any occasion.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
